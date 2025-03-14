@@ -219,7 +219,7 @@ class Tabs extends Component {
           margin: auto;
           border-radius: 5px;
           box-shadow: inset 0 0 0 2px var(--flavour);
-          left: calc(15% - 42.5px);
+          left: calc(20% - 125.5px);
           bottom: 0;
           top: 0;
           background: linear-gradient(to top, rgb(50 48 47 / 90%), transparent);

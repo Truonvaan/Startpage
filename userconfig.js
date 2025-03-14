@@ -1,10 +1,10 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Thanh Hoa",
     scale: "C",
   },
   clock: {
@@ -17,22 +17,21 @@ const default_config = {
   tabs: [
     {
       name: "myself",
-      background_url: "src/img/banners/cbg-09.gif",
       categories: [
         {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
+              name: "News",
+              url: "https://baomoi.com/",
+              icon: "news",
+              icon_color: palette.blue,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
+              name: "Wiki News",
+              url: "https://en.m.wikipedia.org/wiki/Portal:Current_events",
+              icon: "brand-wikipedia",
+              icon_color: palette.red,
             },
           ],
         },
@@ -43,68 +42,20 @@ const default_config = {
               name: "gmail",
               url: "https://mail.google.com",
               icon: "brand-gmail",
-              icon_color: palette.green,
-            },
-            {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
               icon_color: palette.peach,
-            },
-            {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
-              icon_color: palette.red,
             },
             {
               name: "drive",
               url: "https://drive.google.com/drive/home",
               icon: "brand-google-drive",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "media",
-          links: [
-            {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
               icon_color: palette.green,
-            },
-            {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
             },
           ],
         },
       ],
     },
     {
-      name: "dev",
-      background_url: "src/img/banners/cbg-07.gif",
+      name: "work",
       categories: [
         {
           name: "development",
@@ -115,103 +66,43 @@ const default_config = {
               icon: "brand-github",
               icon_color: palette.green,
             },
-            {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
-              icon_color: palette.peach,
-            },
-            {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
-              icon_color: palette.red,
-            },
           ],
         },
         {
-          name: "challenges",
+          name: "research",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
-              icon_color: palette.green,
+              name: "udemy",
+              url: "https://www.udemy.com",
+              icon: "letter-u",
+              icon_color: palette.pink,
             },
             {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
-              icon_color: palette.peach,
-            },
-            {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
-              icon_color: palette.red,
-            },
-            {
-              name: "aoc",
-              url: "https://adventofcode.com",
-              icon: "brand-linktree",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "resources",
-          links: [
-            {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
-            },
-            {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: palette.peach,
-            },
-            {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
-              icon_color: palette.blue,
+              name: "Free Media",
+              url: "https://fmhy.net/",
+              icon: "world-pause",
+              icon_color: palette.pink,
             },
           ],
         },
       ],
     },
     {
-      name: "chi ll",
-      background_url: "src/img/banners/cbg-08.gif",
+      name: "relax",
       categories: [
         {
           name: "social media",
           links: [
             {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
-              icon_color: palette.green,
-            },
-            {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
+              name: "Reddit",
+              url: "https://www.reddit.com",
+              icon: "brand-reddit",
               icon_color: palette.peach,
             },
             {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
-              icon: "brand-reddit",
+              name: "Youtube",
+              url: "https://youtube.com",
+              icon: "brand-youtube",
               icon_color: palette.red,
             },
           ],
@@ -220,60 +111,37 @@ const default_config = {
           name: "gaming",
           links: [
             {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
+              name: "Master Duel Meta",
+              url: "https://www.masterduelmeta.com/",
+              icon: "play-card",
               icon_color: palette.green,
             },
             {
-              name: "steam",
+              name: "Steam",
               url: "https://store.steampowered.com",
               icon: "brand-steam",
-              icon_color: palette.peach,
-            },
-            {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
-              icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
+              icon_color: palette.pink,
             },
           ],
         },
         {
-          name: "video",
+          name: "Fun Stuff",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
-              icon_color: palette.green,
-            },
-            {
-              name: "youtube",
-              url: "https://www.youtube.com",
-              icon: "brand-youtube",
-              icon_color: palette.peach,
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
+              name: "Monkeytype",
+              url: "https://monkeytype.com/",
+              icon: "keyboard",
               icon_color: palette.red,
             },
             {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
+              name: "Pokemon Showdown",
+              url: "https://pokemonshowdown.com/",
+              icon: "pokeball",
+              icon_color: palette.peach,
             },
           ],
         },
+       
       ],
     },
   ],
@@ -281,6 +149,35 @@ const default_config = {
 
 const CONFIG = new Config(default_config, palette);
 
+// Function to pick a random GIF from the list
+function getRandomGif() {
+  const gifs = [
+    "src/img/banners/mesh.gif", 
+    "src/img/banners/violet.gif", 
+    "src/img/banners/gradient.gif",
+    "src/img/banners/cbg-14.gif",
+  ];
+
+  // Generate a random index to select a GIF
+  const randomIndex = Math.floor(Math.random() * gifs.length);
+
+  return gifs[randomIndex];
+}
+
+// Apply a random background for each tab separately
+function applyRandomBackgrounds() {
+  // Loop through each tab and set its background to a random GIF
+  default_config.tabs.forEach((tab, index) => {
+    const randomGif = getRandomGif(); // Get a new random GIF for this tab
+    tab.background_url = randomGif;  // Update the background URL for the tab
+  });
+
 const root = document.querySelector(":root");
 root.style.setProperty("--bg", palette.mantle);
 root.style.setProperty("--accent", palette.green);
+
+}
+
+// Run the function to apply the random backgrounds when the page loads
+applyRandomBackgrounds();
+
