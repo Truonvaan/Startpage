@@ -81,7 +81,28 @@ const default_config = {
               name: "Free Media",
               url: "https://fmhy.net/",
               icon: "world-pause",
-              icon_color: palette.pink,
+              icon_color: palette.green,
+            },
+             {
+          name: "research",
+          links: [
+            {
+              name: "Grok",
+              url: "https://grok.com/?referrer=website",
+              icon: "brand-x",
+              icon_color: palette.peach
+            },
+            {
+              name: "Chat GPT",
+              url: "https://chatgpt.com/",
+              icon: "brand-openai",
+              icon_color: palette.blue,
+            },
+             {
+              name: "Gemini",
+              url: "https://gemini.google.com/app",
+              icon: "input-ai",
+              icon_color: palette.red,
             },
           ],
         },
