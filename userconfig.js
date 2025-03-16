@@ -81,16 +81,18 @@ const default_config = {
               name: "Free Media",
               url: "https://fmhy.net/",
               icon: "world-pause",
-              icon_color: palette.green,
+              icon_color: palette.yellow,
             },
-             {
+          ],
+        },
+        {
           name: "research",
           links: [
             {
               name: "Grok",
               url: "https://grok.com/?referrer=website",
               icon: "brand-x",
-              icon_color: palette.peach
+              icon_color: palette.mauve,
             },
             {
               name: "Chat GPT",
@@ -152,13 +154,13 @@ const default_config = {
               name: "Monkeytype",
               url: "https://monkeytype.com/",
               icon: "keyboard",
-              icon_color: palette.red,
+              icon_color: palette.yellow,
             },
             {
               name: "Pokemon Showdown",
               url: "https://pokemonshowdown.com/",
               icon: "pokeball",
-              icon_color: palette.peach,
+              icon_color: palette.maroon,
             },
           ],
         },
