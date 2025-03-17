@@ -92,7 +92,7 @@ const default_config = {
           ],
         },
         {
-          name: "research",
+          name: "Artificial Intelligence",
           links: [
             {
               name: "Grok",
