@@ -12,7 +12,7 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "https://app.todoist.com/app/inbox",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -83,6 +83,12 @@ const default_config = {
               icon: "world-pause",
               icon_color: palette.yellow,
             },
+            {
+              name: "Game Making Skills",
+              url: "https://gamedesignskills.com/",
+              icon: "device-gamepad-2",
+              icon_color: palette.yellow,
+            }, 
           ],
         },
         {
