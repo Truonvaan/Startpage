@@ -25,7 +25,7 @@ const default_config = {
               name: "News",
               url: "https://baomoi.com/",
               icon: "news",
-              icon_color: palette.blue,
+              icon_color: palette.mauve,
             },
             {
               name: "Wiki News",
@@ -49,6 +49,12 @@ const default_config = {
               url: "https://drive.google.com/drive/home",
               icon: "brand-google-drive",
               icon_color: palette.green,
+            },
+            {
+              name: "telegram",
+              url: "https://web.telegram.org/a/#531256862",
+              icon: "brand-telegram",
+              icon_color: palette.blue,
             },
           ],
         },
@@ -87,7 +93,7 @@ const default_config = {
               name: "Game Making Skills",
               url: "https://gamedesignskills.com/",
               icon: "device-gamepad-2",
-              icon_color: palette.yellow,
+              icon_color: palette.maroon,
             }, 
           ],
         },
@@ -106,7 +112,7 @@ const default_config = {
               icon: "brand-openai",
               icon_color: palette.blue,
             },
-             {
+            {
               name: "Gemini",
               url: "https://gemini.google.com/app",
               icon: "input-ai",
