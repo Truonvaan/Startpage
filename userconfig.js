@@ -33,6 +33,12 @@ const default_config = {
               icon: "brand-wikipedia",
               icon_color: palette.red,
             },
+            {
+              name: "Virus Total",
+              url: "https://www.virustotal.com/gui/home/upload",
+              icon: "brand-wikipedia",
+              icon_color: palette.maroon,
+            }, 
           ],
         },
         {
