@@ -78,6 +78,12 @@ const default_config = {
               icon: "brand-github",
               icon_color: palette.green,
             },
+            {
+              name: "atlassian - bitbucket",
+              url: "https://home.atlassian.com/projects",
+              icon: "brand-bitbucket",
+              icon_color: palette.sky,
+            },
           ],
         },
         {
@@ -106,12 +112,6 @@ const default_config = {
         {
           name: "Artificial Intelligence",
           links: [
-            {
-              name: "Grok",
-              url: "https://grok.com/?referrer=website",
-              icon: "brand-x",
-              icon_color: palette.mauve,
-            },
             {
               name: "Chat GPT",
               url: "https://chatgpt.com/",
